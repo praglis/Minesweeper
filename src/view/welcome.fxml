@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane fx:id="welcomePane" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+          xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="10.0"/>
+        <RowConstraints minHeight="100.0" prefHeight="100.0"/>
+        <RowConstraints minHeight="10.0" prefHeight="100.0"/>
+    </rowConstraints>
+    <Text stroke="BLACK" text="Welcome to" GridPane.rowIndex="0" textAlignment="CENTER">
+        <font>
+            <Font name="Rubik-Bold" size="16.0"/>
+        </font>
+    </Text>
+    <Text fx:id="text2" stroke="BLACK" text="MINESWEEPER" GridPane.rowIndex="1" textAlignment="CENTER">
+        <font>
+            <Font name="Myanmar Text Bold" size="32.0"/>
+        </font>
+    </Text>
+    <Text stroke="BLACK" text="author: Paweł Raglis" GridPane.rowIndex="2">
+        <font>
+            <Font name="Rubik Italic" size="12.0"/>
+        </font>
+    </Text>
+</GridPane>
